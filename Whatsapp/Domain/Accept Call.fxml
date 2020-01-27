@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WeChat.LoginController">
+   <children>
+      <Button fx:id="callAcceptAtRecv" layoutX="134.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonAcceptCallAtRecv" prefHeight="25.0" prefWidth="88.0" text="Start" />
+      <Button fx:id="cancleAtRecv" layoutX="134.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonCancleCallAtRecv" prefHeight="25.0" prefWidth="88.0" text="Cancel" />
+   </children>
+</AnchorPane>

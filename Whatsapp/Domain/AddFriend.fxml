@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WeChat.LoginController">
+   <children>
+      <TextField fx:id="friendUserName" layoutX="286.0" layoutY="101.0" />
+      <Label layoutX="180.0" layoutY="105.0" text="Enter User Name:" textAlignment="CENTER" />
+      <Button fx:id="addFriend" layoutX="263.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleButtonAddFriend" text="Add Friend" />
+      <Label fx:id="friendAdded" layoutX="191.0" layoutY="151.0" prefHeight="17.0" prefWidth="220.0" />
+   </children>
+</AnchorPane>
